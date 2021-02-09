@@ -18,7 +18,7 @@ num_days = str(round(days))
 
 hours = (minutes%(24*60))//60
 
-mins = minutes%24
+mins = (minutes%(24*60))%60
 
 # Output results
 print(minutes,"is",days,"days,",hours,"hours, and",mins,"minutes.")
