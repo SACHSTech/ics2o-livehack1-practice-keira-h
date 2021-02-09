@@ -9,6 +9,8 @@ Created: date in 08/02/2021
 ----------------------------------------------------------
 """
 
+print("Hours to Days and Hours Converter")
+
 # Get the number of  hours
 hours = int(input("Enter the number of hours: "))
 
