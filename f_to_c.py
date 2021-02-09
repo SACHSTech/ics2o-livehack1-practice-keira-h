@@ -9,7 +9,7 @@ Created: date in 08/02/2021
 ----------------------------------------------------------
 """
 
-print("Fahrenheit to Celsius Converter")
+print("------------ Fahrenheit to Celsius Converter ------------")
 
 # Get the temperature
 fahrenheit = float(input("Enter the value in Fahrenheit (°F): "))

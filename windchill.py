@@ -9,7 +9,7 @@ Created: date in 08/02/2021
 ----------------------------------------------------------
 """
 
-print("Windchill Factor Converter")
+print("--------------- Windchill Factor Converter --------------")
 
 # Get the temperature and wind speed
 temperature = float(input("Enter the temperature (°C): "))
