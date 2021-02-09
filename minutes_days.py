@@ -13,11 +13,10 @@ Created: date in 08/02/2021
 minutes = int(input("Enter the number of minutes: "))
 
 # Calculate for days, hours and minutes
-mins_in_days = 60*24
-days = minutes//mins_in_days
+days = minutes//(60*24)
 num_days = str(round(days))
 
-hours = 60//24
+hours = (minutes%(24*60))//60
 
 mins = minutes%24
 
